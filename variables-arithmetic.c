@@ -2,11 +2,11 @@
 
 void main (void)
 {
-	int a;
-	int b = 3;
-	int c;
+	float a;
+	float b = 3.641;
+	float c;
 	
-	a = 2;
+	a = 2.897;
 	c = a + b;
-	printf ("The sum of adding %d and %d is %d\n", a, b, c);
+	printf ("The sum of adding %f and %f is %f\n", a, b, c);
 }
