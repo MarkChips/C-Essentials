@@ -4,12 +4,10 @@ void main (void)
 {
 	int a = 0;
 	
-	if (a == 0)
+	while (a < 5)
 	{
-		printf ("a is equal to 0\n");
+		printf ("a is equal to %d\n", a);
+		a++;
 	}
-	else
-	{
-		printf ("a is not equal to 0\n");
-	}
+	printf ("a is equal to %d and I've finished\n", a);
 }
