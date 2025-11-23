@@ -4,16 +4,12 @@ void main (void)
 {
 	int a = 0;
 	
-	if (a == 0)
+	switch (a)
 	{
-		printf ("a is equal to 0\n");
-	}
-	else if (a == 1)
-	{
-		printf ("a is equal to 1\n");
-	}
-	else
-	{
-		printf ("a is greater than 1\n");
+		case 0 :	printf ("a is equal to 0\n");
+					break;
+		case 1 :	printf ("a is equal to 1\n");
+					break;
+		default :	printf ("a is greater than 1\n");
 	}
 }
