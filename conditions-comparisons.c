@@ -2,12 +2,11 @@
 
 void main (void)
 {
-	int a = 5;
+	int a;
 	
-	do 
+	for (a = 0; a < 5; a++)
 	{
 		printf ("a is equal to %d\n", a);
-		a++;
-	} while (a < 5);
+	}
 	printf ("a is equal to %d and I've finished\n", a);
 }
