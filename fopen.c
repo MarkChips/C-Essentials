@@ -5,14 +5,13 @@ void main (void)
 	FILE *fp;
 	int value;
 
-	fp = fopen ("/home/chips/input.txt", "rb");
+	fp = fopen ("/home/chips/output.txt", "wb");
+
 	if (fp)
 	{
-		while (1)
+		for (value = 48; value < 58; value++)
 		{
-			value = fgetc (fp);
-			if (value == EOF) break;
-			else printf ("%c", value);
+			fputc (value, fp);
 		}
 		fclose (fp);
 	}
